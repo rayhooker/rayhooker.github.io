@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content=""> 
+    <title>Ray Hooker's Tools and Solutions</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </head>
+<body style="padding-left: 20px; padding-right: 20px;   ">
+  
+<h1><img height="100" style="margin: 10px" src="../images/Icon-App-20x20@2x.png">&nbsp;wqExplorer</h1>
+ 
+<h2>Product Overview</h2>
+
+<p style="color: grey">wqExplorer (Water Quality Explorer) is a mobile app for iOS and 
+    Android devices designed to assist in the exploration of water quality data.  The goal is to provide quick access to data from online databases,  the ability to add ad hoc collections of water quality data/ sampling and to generate basic charts and analysis for the data.  For more detailed analysis, the app will provide the ability to export the data to a cloud drive for analysis using additional tools such as Python, R or SAS.  
+    The target audience is still to be determined but is envisioned to be citizen scientists and students.  </p>
+ 
+<p style="color: grey" >The initial version will provide: </p>
+<ol>
+<li>Access to data from the US Water Quality Portal.</li>
+<li>Basic charts and map exploration</li>
+<li>Ability to export to a cloud drive for later analysis.</li>
+</ol>
+<h2>US Water Quality Portal</h2>
+The US Water Quality Portal (<a href="https://www.waterqualitydata.us/">https://www.waterqualitydata.us/</a>)  is a cooperative service that integrates publicly available water-quality data from the United States Geological Survey (USGS), the Environmental Protection Agency (EPA), and over 400 state, federal, tribal, and local agencies. The portal provides the ability to search for collection site and site information and the ability to retrieve data previously collected across a number of databases including NWIS (USGS) and WQX (EPA).   
+<h2>Basic Usage Instructions</h2>
+<p>There are three basic steps:</p>
+<ol>
+<li>Define a project - Create a project, give it a title, description and a physical address.</li>
+<li>Gather data - Once the project definition is save, click on the project in the list, then click on the data tab. </li>
+<ol type="a">
+<li>Select a radius in miles and click to search for collection sites where data has been collected within that radius of the project address.  The app will retrieve the list of all collection sites defined to the portal within that search area. The map will now have pins for each of the sites found.</li>
+<li>From the same menu, select to retrieve data for these collection sites from the water quality portal.  Simply:</li>
+<ol type="i">
+<li>Select the type of collection to.  The portal defines three types: Biological, Physical/ Chemistry and Narrow.  See portal for definitions</li>
+<li>Select a date range</li>
+<li>Select one or more sources to select. The portal provides data from NWIS (USGS), Stewards (ARS) and WQX (EPA).</li>
+<li>Click “Begin results retrieval”. The app will retrieve the data and generate graphable collections that includes some basic data cleaning.</li>
+</ol>
+</ol>
+<li>View reports - The reports tab provides the ability to view various charts and data tables for the collected data. Also the map pins will change to the color green and in addition to basic collection site info, the data collected from that site and retrieved by the app will be shown in tables and graphs.</li>
+</ol>
+</body>
+</html>
